@@ -6,8 +6,9 @@ class Game:
 
         #pamata setup
         pygame.init()
-        self.screen = pygame.display.set.mode((WIDTH, HEIGHT))
-        self.clock = pygame = pygame.time.Clock()
+        self.screen = pygame.display.set_mode((WIDTH, HEIGHT))
+        pygame.display.set_caption('Zelda Souls')
+        self.clock = pygame.time.Clock()
 
     def run(self):
         while True:
